@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="86.089894">
+    <testcase classname="Testing the Store Website" name="Login_Test_Scenario" time="86.089894">
+        <system-out>
+            <![CDATA[Given user launches the browser.............................................passed
+Then user clicks on the sign link...........................................passed
+Then user enters the email to create new Account............................passed
+Then user enter the contact details.........................................passed
+Then verify the contact details missing error...............................passed
+Then browser get close......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

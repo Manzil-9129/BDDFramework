@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login_Test_Scenario",
+        "description": "",
+        "id": "testing-the-store-website;login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61955164500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user launches the browser",
+            "match": {
+              "location": "Stepdefinition.user_launches_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7268128200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the sign link",
+            "match": {
+              "location": "Stepdefinition.User_clicks()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2879674799,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the email to create new Account",
+            "match": {
+              "location": "Stepdefinition.user_enter_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5286320900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter the contact details",
+            "match": {
+              "location": "Stepdefinition.user_enter_the_contact_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5714388101,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the contact details missing error",
+            "match": {
+              "location": "Stepdefinition.verify_the_contact_details_missing_errors()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2986217700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "browser get close",
+            "match": {
+              "location": "Stepdefinition.browser_get_close()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing the Store Website",
+    "description": "",
+    "id": "testing-the-store-website",
+    "keyword": "Feature",
+    "uri": "C:/Users/SHIV/eclipse-workspace/PracticeBDDFramework/src/main/java/Features/Login.feature"
+  }
+]
